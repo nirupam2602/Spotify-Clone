@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Yours</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Ek Din Aap Yun</span>
+                    <span class="songlistplay"><span class="timestamp">05:00 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Ishq Official Lyrical</span>
+                    <span class="songlistplay"><span class="timestamp">03:48 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Ishq Sufiyana</span>
+                    <span class="songlistplay"><span class="timestamp">05:23 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Janam Dekh lo</span>
+                    <span class="songlistplay"><span class="timestamp">03:10 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Jeene Bhi De</span>
+                    <span class="songlistplay"><span class="timestamp">06:35 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Maheroo By Shreya</span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">Salamat</span>
+                    <span class="songlistplay"><span class="timestamp">04:30 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8">
+                    <span class="songName">Tere Hawaale</span>
+                    <span class="songlistplay"><span class="timestamp">06:32 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="9">
+                    <span class="songName">Tum Hi Ho Aashiqui 2</span>
+                    <span class="songlistplay"><span class="timestamp">04:27 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="10">
+                    <span class="songName">Sun Raha Hai Na Tu</span>
+                    <span class="songlistplay"><span class="timestamp">03:49 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa fa-2x fa-forward-step" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">WELCOME</span>
+        </div>
+
+        <div>
+            <input type="range" id="volumeSlider" min="0" max="100" value="75">
+
+    </div>
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
