@@ -120,6 +120,7 @@ nav ul li {
     font-family: 'Varela Round', sans-serif;
 }
 
+
 .songInfo img {
     opacity: 0;
     transition: opacity 0.4s ease-in;
@@ -131,22 +132,12 @@ nav ul li {
     }
 }
 
-/* Add this to your style.css file */
-.seek-tooltip {
-    position: absolute;
-    background-color: rgba(238, 33, 33, 0.8);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 12px;
-    top: -30px; /* Position above the progress bar */
-    left: 0;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    pointer-events: none; /* Ensure the tooltip doesn't interfere with hover */
+.volume{
+    padding: 6px;
+    cursor: pointer;  
 }
 
-.bottom {
-    position: relative; /* Ensure the tooltip is positioned relative to the bottom container */
+#volumeSlider {
+    cursor: pointer;
+
 }

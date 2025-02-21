@@ -11,15 +11,20 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     {songName: "Ek Din Aap Yun", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Ishq Official Lyrical", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Ishq", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Ishq Sufiyana", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Janam Dekh lo", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "Jeene Bhi De", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Maheroo By Shreya", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Maheroo", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
     {songName: "Salamat", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
     {songName: "Tere Hawaale", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tum Hi Ho Aashiqui 2", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Tum Hi Ho", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
     {songName: "Sun Raha Hai Na Tu", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Hume Tumse Pyaar Kitna", filePath: "songs/11.mp3", coverPath: "covers/11.jpg"},
+    {songName: "SAUDEBAAZI", filePath: "songs/12.mp3", coverPath: "covers/12.jpg"},
+    {songName: "Deewana Kar Raha Hai", filePath: "songs/13.mp3", coverPath: "covers/13.jpg"},
+    {songName: "Honey Bunny", filePath: "songs/14.mp3", coverPath: "covers/14.jpg"},
+    
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -78,7 +83,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=9){
+    if (songIndex >= songs.length - 1) {
         songIndex = 0
     }
     else{
@@ -126,31 +131,4 @@ let volumeSlider = document.getElementById('volumeSlider');
 
 volumeSlider.addEventListener('input', () => {
     audioElement.volume = volumeSlider.value / 100;
-});
-
-// Add this to your script.js file
-
-// Get the progress bar and tooltip elements
-const myProgressBar2 = document.getElementById('myProgressBar2');
-const seekTooltip = document.getElementById('seekTooltip');
-
-// Function to format time (e.g., 125 seconds -> 2:05)
-function formatTime(time) {
-    const minutes = Math.floor(time / 60);
-    const seconds = Math.floor(time % 60);
-    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-}
-
-// Show tooltip on hover over the progress bar
-myProgressBar2.addEventListener('mousemove', (e) => {
-    const percent = (e.offsetX / myProgressBar2.offsetWidth) * 100;
-    const seekTime = (percent / 100) * audioElement.duration;
-    seekTooltip.textContent = formatTime(seekTime); // Update tooltip text
-    seekTooltip.style.left = `${percent}%`; // Move tooltip to hover position
-    seekTooltip.style.opacity = '1'; // Make tooltip visible
-});
-
-// Hide tooltip when mouse leaves the progress bar
-myProgressBar2.addEventListener('mouseleave', () => {
-    seekTooltip.style.opacity = '0'; // Hide tooltip
 });
