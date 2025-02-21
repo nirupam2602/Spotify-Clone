@@ -64,10 +64,7 @@ nav ul li {
     flex-direction: column;
 }
 
-.icons {
-
-    
-}
+.icons {}
 
 .icons i {
     cursor: pointer;
@@ -117,7 +114,7 @@ nav ul li {
 .songInfo {
     position: 0 20px;
     font-family: 'Varela Round', sans-serif;
-   margin: 3px;
+    margin: 3px;
     display: flex;
 }
 
@@ -133,8 +130,8 @@ nav ul li {
     }
 }
 
-.volume{
-    cursor: pointer;  
+.volume {
+    cursor: pointer;
 }
 
 #volumeSlider {
