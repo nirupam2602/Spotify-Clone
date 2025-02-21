@@ -1,4 +1,4 @@
-console.log("Welcome to Spotify");
+console.log("Welcome to Cutiefy");
 
 // Initialize the Variables
 let songIndex = 0;
@@ -21,7 +21,7 @@ let songs = [
     {songName: "Tum Hi Ho", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
     {songName: "Sun Raha Hai Na Tu", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
     {songName: "Hume Tumse Pyaar Kitna", filePath: "songs/11.mp3", coverPath: "covers/11.jpg"},
-    {songName: "SAUDEBAAZI", filePath: "songs/12.mp3", coverPath: "covers/12.jpg"},
+    {songName: "Saudebaazi", filePath: "songs/12.mp3", coverPath: "covers/12.jpg"},
     {songName: "Deewana Kar Raha Hai", filePath: "songs/13.mp3", coverPath: "covers/13.jpg"},
     {songName: "Honey Bunny", filePath: "songs/14.mp3", coverPath: "covers/14.jpg"},
     
@@ -47,7 +47,6 @@ masterPlay.addEventListener('click', ()=>{
         gif.style.opacity = 0;
     }
 })
-
 // Listen to Events
 audioElement.addEventListener('timeupdate', ()=>{ 
     // Update Seekbar
