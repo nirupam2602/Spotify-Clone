@@ -19,8 +19,8 @@ nav ul {
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: rgb(64, 47, 196);
-    color: rgb(52, 232, 24);
+    background-color: rgb(7, 22, 241);
+    color: rgb(243, 5, 5);
 }
 
 nav ul li {
@@ -42,7 +42,7 @@ nav ul li {
 .container {
     min-height: 90vh;
     background-color: black;
-    color: rgb(199, 218, 24);
+    color: rgb(140, 85, 198);
     font-family: 'Varela Round', sans-serif;
     display: flex;
     margin: 23px auto;
@@ -57,7 +57,7 @@ nav ul li {
     bottom: 1%;
     height: 120px;
     background-color: black;
-    color: rgb(86, 222, 24);
+    color: rgb(32, 221, 114);
     display: flex;
     justify-content: center;
     align-items: center;
