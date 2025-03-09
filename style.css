@@ -20,7 +20,7 @@ nav ul {
     list-style-type: none;
     height: 65px;
     background-color: rgb(7, 22, 241);
-    color: rgb(243, 5, 5);
+    color: rgb(86, 243, 8);
 }
 
 nav ul li {
@@ -28,7 +28,7 @@ nav ul li {
 }
 
 .brand img {
-    width: 44px;
+    width: 70px;
     padding: 0 8px;
 }
 

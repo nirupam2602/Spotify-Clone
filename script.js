@@ -1,4 +1,4 @@
-console.log("Welcome to Spotify");
+console.log("Welcome to Cutify");
 
 // Initialize the Variables
 let songIndex = 0;
@@ -25,6 +25,17 @@ let songs = [
     {songName: "Deewana Kar Raha Hai", filePath: "songs/13.mp3", coverPath: "covers/13.jpg"},
     {songName: "Honey Bunny", filePath: "songs/14.mp3", coverPath: "covers/14.jpg"},
     {songName: "Agar Tum sath Ho", filePath: "songs/15.mp3", coverPath: "covers/15.jpg"},
+    {songName: "पहन क चल बकन", filePath: "songs/16.mp3", coverPath: "covers/20.jpg"},
+    {songName: "CHAL DIYE TUM KAHAN", filePath: "songs/17.mp3", coverPath: "covers/20.jpg"},
+    {songName: "Humdard", filePath: "songs/18.mp3", coverPath: "covers/20.jpg"},
+    {songName: "Galliyano", filePath: "songs/19.mp3", coverPath: "covers/20.jpg"},
+    {songName: "JAB TAK", filePath: "songs/20.mp3", coverPath: "covers/20.jpg"},
+    {songName: "MANIAC", filePath: "songs/21.mp3", coverPath: "covers/20.jpg"},
+    {songName: "Milne Hai Mujhse Aayi", filePath: "songs/22.mp3", coverPath: "covers/20.jpg"},
+    {songName: "PHIR KABHI", filePath: "songs/23.mp3", coverPath: "covers/20.jpg"},
+    {songName: "SAJNA DA DIL TORYA", filePath: "songs/24.mp3", coverPath: "covers/20.jpg"},
+    {songName: "Shayad", filePath: "songs/25.mp3", coverPath: "covers/20.jpg"},
+   
     
 ]
 
