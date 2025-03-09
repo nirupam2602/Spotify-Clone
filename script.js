@@ -1,4 +1,4 @@
-console.log("Welcome to Cutify");
+console.log("Welcome to Spotify");
 
 // Initialize the Variables
 let songIndex = 0;
