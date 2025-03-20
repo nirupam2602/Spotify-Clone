@@ -24,7 +24,7 @@ let songs = [
     {songName: "Saudebaazi", filePath: "songs/12.mp3", coverPath: "covers/12.jpg"},
     {songName: "Deewana Kar Raha Hai", filePath: "songs/13.mp3", coverPath: "covers/13.jpg"},
     {songName: "Honey Bunny", filePath: "songs/14.mp3", coverPath: "covers/14.jpg"},
-    {songName: "Agar Tum sath Ho", filePath: "songs/15.mp3", coverPath: "covers/15.jpg"},
+    {songName: "Agar Tum sath Ho", filePath: "songs/15.mp3", coverPath: "covers/20.jpg"},
     {songName: "पहन क चल", filePath: "songs/16.mp3", coverPath: "covers/20.jpg"},
     {songName: "Chal Diye Tum Kahan", filePath: "songs/17.mp3", coverPath: "covers/20.jpg"},
     {songName: "Humdard", filePath: "songs/18.mp3", coverPath: "covers/20.jpg"},
